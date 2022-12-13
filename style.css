@@ -108,19 +108,19 @@ body {
 /* css resets ends here   */
 body {
   font-size: 1rem;
-  font-family: sans-serif;
+  font-family: sans-serif ;
   line-height: 1.7;
 }
 a {
-    text-decoration: none;
-  }
-  ul {
-    list-style: none;
-  }
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 .container {
   max-width: 1370;
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 0 148px;
 }
 /* padding */
 .padding {
@@ -165,32 +165,72 @@ a {
 .flex_20 {
   flex: 0 1 20%;
 }
+/* button ..... */
+.btn{
+    border-radius: 4px;
+    padding: 10px 24px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn_primary{
+    background-color: #F9646B;
+}
 /* tophead_sec */
-.tophead_sec{
-    background-color: #012D5B;
-    color: white;
-    padding: 16px 0;
+.tophead_sec {
+  background-color: #012d5b;
+  color: white;
+  padding: 16px 0;
 }
-.tophead_sec i{
-    color: white;
-    font-size: 18px;
+.tophead_sec i {
+  color: white;
+  font-size: 18px;
 }
-.social_media_icon{
-    margin-left: 20px;
+.social_media_icon {
+  margin-left: 20px;
 }
-.tophead_sec small{
-    font-size: 17px;
-    /* font-weight: 600; */
+.tophead_sec small {
+  font-size: 17px;
+  /* font-weight: 600; */
 }
-.email_sec{
-    margin-left: 60px;
+.email_sec {
+  margin-left: 60px;
 }
 /* header */
-.header{
-    padding: 10px 0;
+.header {
+  padding: 10px 0;
 }
-.brand_name{
-    font-weight: 800;
-    font-size: 32px;
+.brand_name {
+  font-weight: 800;
+  font-size: 32px;
+  color: #002d5b;
+}
+.nav_menu{
+    margin-right: 92px;
+}
+.nav_menu a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #002d5b;
+  text-transform: uppercase;
+}
+.nav_menu li{
+    margin-right: 20px;
+}
+/* first section ..... */
+.first_sec{
+    background: url(./media/h1_hero.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+.first_sec h1{
+    font-size: 50px;
+    font-weight: 900;
     color: #002D5B;
+    margin-bottom: 25px;
+}
+.first_sec h2{
+    color:#F9646B;
 }
