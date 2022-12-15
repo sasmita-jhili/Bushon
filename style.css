@@ -108,7 +108,7 @@ body {
 /* css resets ends here   */
 body {
   font-size: 1rem;
-  font-family: sans-serif ;
+  font-family: sans-serif;
   line-height: 1.7;
 }
 a {
@@ -124,7 +124,7 @@ ul {
 }
 /* padding */
 .padding {
-  padding: 80px 0;
+  padding: 80px 189px;
 }
 /* flex.... */
 .flex {
@@ -166,22 +166,34 @@ ul {
   flex: 0 1 20%;
 }
 /* button ..... */
-.btn{
-    border-radius: 4px;
-    padding: 10px 24px;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
+.btn {
+  border-radius: 4px;
+  padding: 10px 24px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-.btn_primary{
-    background-color: #F9646B;
+.btn_primary {
+  background-color: #f9646b;
+}
+.btn_secondary {
+  color: #f9646b;
+  border: 2px solid #f9646b;
+  background-color: white;
+  text-transform: capitalize;
+}
+/* heading... */
+.subheading {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 8px 0;
 }
 /* tophead_sec */
 .tophead_sec {
   background-color: #012d5b;
   color: white;
-  padding: 16px 0;
+  padding: 14px 0;
 }
 .tophead_sec i {
   color: white;
@@ -199,15 +211,15 @@ ul {
 }
 /* header */
 .header {
-  padding: 10px 0;
+  padding: 16px 0;
 }
 .brand_name {
   font-weight: 800;
   font-size: 32px;
   color: #002d5b;
 }
-.nav_menu{
-    margin-right: 92px;
+.nav_menu {
+  margin-right: 92px;
 }
 .nav_menu a {
   font-size: 14px;
@@ -215,22 +227,135 @@ ul {
   color: #002d5b;
   text-transform: uppercase;
 }
-.nav_menu li{
-    margin-right: 20px;
+.nav_menu li {
+  margin-right: 20px;
 }
-/* first section ..... */
-.first_sec{
-    background: url(./media/h1_hero.jpg);
-    width: 100%;
-    height: 90vh;
-    background-size: cover;
+/* Home section ..... */
+.first_sec {
+  background: url(./media/h1_hero.jpg);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
 }
-.first_sec h1{
-    font-size: 50px;
-    font-weight: 900;
-    color: #002D5B;
-    margin-bottom: 25px;
+.first_sec h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #002d5b;
+  margin-bottom: 25px;
 }
-.first_sec h2{
-    color:#F9646B;
+.first_sec h2 {
+  color: #f9646b;
+}
+.first_container {
+  padding: 40px 189px;
+}
+/* about_sec */
+.about_sec {
+  background-color: #f6f9ff;
+}
+.about_sec img {
+  width: 100%;
+  /* height: 250px; */
+}
+.about_sec h2 {
+  font-size: 24px;
+  font-weight: 550;
+  padding: 8px 0;
+}
+p {
+  color: #8088a9;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+.about_card {
+  border: 5px solid #f9646b;
+  padding: 20px;
+}
+.about_card a {
+  color: black;
+  font-size: 14px;
+}
+.about_sec hr {
+  color: #f9646b;
+  border: 0;
+  border-top: 5px solid;
+  padding: 20px;
+}
+.article_img {
+  width: 100%;
+}
+.article_description {
+  padding: 30px 20px;
+  height: auto;
+  width: 30%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 1)
+  );
+  position: absolute;
+  left: 650px;
+  /* bottom: 2px; */
+}
+
+/* service */
+.heading {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service_card {
+  background-color: #f6f9fe;
+  text-align: center;
+  padding: 40px;
+  margin: 0 16px;
+  /* width: 28%; */
+  /* height: auto; */
+}
+.service_card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 16px 0;
+}
+.service_btn {
+  text-align: center;
+  margin-top: 90px;
+}
+/* cases_sec */
+.cases_sec {
+  background-color: #f6f9fe;
+}
+.cases_sec img {
+  width: 50%;
+  height: auto;
+}
+/* blog section.... */
+.blog_cotainer_img{
+  text-align: center;
+}
+.blog_cotainer p{
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+.review_star{
+  color: #FBBA42;
+  text-align: center;
+}
+.username{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.blog_cotainer a{
+  color: #f9646b;
+  font-size: 16px;
+}
+.article_image{
+  width: 100%;
 }
